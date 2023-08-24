@@ -1,0 +1,197 @@
+.frist{
+    color: black;
+}
+
+.heading{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 300px;
+    align-items: center;
+    justify-content: center;
+}
+.but{
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    height: 32px;
+    width: 156px;
+    border-radius: 24px;
+    border: 0.5;
+    outline: 0;
+    border-color: rgb(0, 0, 0);
+}
+.bodypart{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around;
+
+}
+.sec1{
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+
+img{
+    border-radius: 10px;
+}
+
+.text-center img{
+    border-radius: 10px;
+}
+.but2{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 32px;
+    width: 156px;
+    border-radius: 24px;
+    border: 0.5;
+    outline: 0;
+    border-color: rgb(0, 0, 0);
+}
+
+.para{
+    display: flex;
+    width: 1186px;
+   
+}
+
+footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.end{
+    background-color: black;
+    color: white;
+}
+.but3{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 171px;
+    border-radius: 24px;
+    align-items: center;
+    border: 0.5;
+    outline: 0;
+    border-color: rgb(255, 255, 255);
+    justify-content: center;
+    justify-items: center;
+
+}
+.end{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    align-items: center;
+    color: white;
+    justify-content:space-between;
+}
+li{
+    list-style: none;
+}
+.count{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.subfooter{
+    color: white;
+    background-color: black;
+    height: 100%;
+    width: 100%;
+}
+.end1{
+    width: 150px;
+}
+
+
+
+
+
+@media screen and (max-width:600px)
+{
+    .heading{
+        display: flex;
+        flex-direction: row;
+        width: 100%;
+        height: 80px;
+        align-items: center;
+        justify-content: center;
+    }
+    .but{
+        background-color: rgb(255, 255, 255);
+        color: rgb(0, 0, 0);
+        height: 15px;
+        width: 56px;
+        border-radius: 24px;
+        align-items: center;
+        border: 0.5;
+        outline: 0;
+        border-color: rgb(0, 0, 0);
+        justify-content: center;
+        justify-items: center;
+    }
+    .bodypart{
+        display: flex;
+        width: auto;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+    
+    }
+    .body1{
+        flex-direction: column;
+    }
+    
+    .p1{
+     font-size: 6px;
+    }
+    .im{
+        width: 385px;
+    }
+    .but{
+        background-color: rgb(0, 0, 0);
+        color: rgb(255, 255, 255);
+        height: 15px;
+        width: 56px;
+        border-radius: 24px;
+        align-items: center;
+        border: 0.5;
+        outline: 0;
+        border-color: rgb(0, 0, 0);
+        justify-content: center;
+        justify-items: center;
+    }
+   .endbar{
+    height: 150px;
+    width: 273px;;
+   }
+   .but3{
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    width: 160px;
+    border-radius: 24px;
+    align-items: center;
+    border: 0.5;
+    outline: 0;
+    border-color: rgb(255, 255, 255);
+    justify-content: center;
+    justify-items: center;
+
+}
+.end{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    color: white;
+}
+        
+    
+}
